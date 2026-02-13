@@ -1,0 +1,18 @@
+.register-title {
+  color: var(--text-dark);
+  margin-bottom: 25px;
+}
+
+.register-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.register-submit {
+  margin-top: 25px;
+}

@@ -1,0 +1,14 @@
+:root {
+  /* Primary Colors */
+  --primary-orange: #ff6a00;
+  --purple-main: #d400d4;
+  --blue-main: #87b9d6;
+
+  /* UI Colors */
+  --card-bg: rgba(245, 245, 245, 0.92);
+  --input-bg: #e9e9e9;
+  --text-dark: #243447;
+
+  /* Shadow */
+  --card-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}

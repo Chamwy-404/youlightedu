@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    var(--purple-main) 0%,
+    var(--purple-main) 40%,
+    var(--blue-main) 40%,
+    var(--blue-main) 100%
+  );
+}
