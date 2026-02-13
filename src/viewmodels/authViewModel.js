@@ -30,6 +30,14 @@ export const useAuthViewModel = () => {
     setMessage(res.message);
   };
 
+    const switchToRegister = () => {
+    setIsLogin(false);
+    };
+
+    const switchToLogin = () => {
+    setIsLogin(true);
+    };
+
   return {
     isLogin,
     setIsLogin,
@@ -48,6 +56,9 @@ export const useAuthViewModel = () => {
 
     login,
     register,
-    message
+    message,
+
+    switchToRegister,
+    switchToLogin
   };
 };

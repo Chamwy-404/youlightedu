@@ -1,0 +1,74 @@
+/* Auth Card */
+.auth-card {
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 20px;
+  width: 380px;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+
+/* Input */
+.auth-input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 25px;
+  border: none;
+  background: var(--input-bg);
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.auth-input:focus {
+  box-shadow: 0 0 0 2px var(--primary-orange);
+}
+
+/* Primary Button（LOG IN） */
+.primary-btn {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  background: white;
+  color: var(--primary-orange);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: var(--primary-orange);
+  color: white;
+}
+
+/* Outline Button（CREATE / GUEST） */
+.outline-btn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: 2px solid var(--primary-orange);
+  background: transparent;
+  color: var(--primary-orange);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.outline-btn:hover {
+  background: var(--primary-orange);
+  color: white;
+}
+
+/* Link */
+.auth-link {
+  color: #4a00ff;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}

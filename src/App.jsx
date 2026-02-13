@@ -1,7 +1,9 @@
 import { useAuthViewModel } from "./viewmodels/authViewModel";
-import LoginView from "./views/LoginView";
-import RegisterView from "./views/RegisterView";
-import "./App.css";
+import LoginView from "./views/Login/LoginView";
+import RegisterView from "./views/Register/RegisterView";
+import './styles/variables.css'
+import './styles/base.css'
+import './styles/shared.css'
 
 function App() {
   const vm = useAuthViewModel();
